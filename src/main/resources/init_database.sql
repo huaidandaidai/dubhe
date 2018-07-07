@@ -1,0 +1,6 @@
+CREATE DATABASE dubhe DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+DROP TABLE IF EXISTS dubhe_user;
+CREATE TABLE dubhe_user (
+
+)
