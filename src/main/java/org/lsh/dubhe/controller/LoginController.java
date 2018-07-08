@@ -18,6 +18,6 @@ public class LoginController {
      */
     @RequestMapping("/login")
     public String login(){
-        return "";
+        return "login";
     }
 }
