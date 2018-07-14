@@ -1,5 +1,8 @@
 package org.lsh.dubhe.config;
 
+import org.springframework.boot.web.server.ErrorPage;
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,10 +19,9 @@ import javax.servlet.http.HttpServletRequest;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(value = Exception.class)
-    @ResponseBody
-    public Object defaultErrorHandler(HttpServletRequest req,Exception e){
+    public String defaultErrorHandler(HttpServletRequest req,Exception e){
         e.printStackTrace();
-        return "sorry,程序生气，内斗去了";
+        return "500";
     }
 //    @Bean
 //    public EmbeddeServletContainerCustomizer containerCustomizer(){
