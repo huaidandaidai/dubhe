@@ -1,6 +1,6 @@
 package org.lsh.dubhe.config;
 
-import org.lsh.dubhe.domain.User;
+import org.lsh.dubhe.dao.system.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 

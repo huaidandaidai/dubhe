@@ -1,9 +1,8 @@
 package org.lsh.dubhe.service.impl;
 
-import org.lsh.dubhe.domain.User;
+import org.lsh.dubhe.dao.system.User;
 import org.lsh.dubhe.mapper.UserMapper;
 import org.lsh.dubhe.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
