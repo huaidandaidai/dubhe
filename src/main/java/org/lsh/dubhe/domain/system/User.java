@@ -1,4 +1,4 @@
-package org.lsh.dubhe.domain;
+package org.lsh.dubhe.domain.system;
 
 import java.io.Serializable;
 import java.util.Date;
