@@ -1,7 +1,7 @@
 package org.lsh.dubhe.mapper;
 
 import org.apache.ibatis.annotations.*;
-import org.lsh.dubhe.domain.system.User;
+import org.lsh.dubhe.dao.system.User;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.lsh.dubhe.controller;
 
-import org.lsh.dubhe.domain.system.User;
+import org.lsh.dubhe.dao.system.User;
 import org.lsh.dubhe.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
